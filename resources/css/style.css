@@ -5,6 +5,10 @@ html {
   /*font-family: 'Open Sans', sans-serif;*/
 }
 
+h2 {
+  text-align: left;
+}
+
 /*nav*/
 nav {
   font-family: 'Open Sans', sans-serif;
@@ -86,6 +90,11 @@ nav {
   padding-bottom: 5.85rem;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+}
+
+
+.projects img {
+  width: 100%;
 }
 
 /*help*/
