@@ -36,6 +36,7 @@ nav {
 .jumbotron p {
   width: 51.3rem;
   margin:auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron .btn {
@@ -44,4 +45,28 @@ nav {
   padding-top: 1.3rem ;
   padding-bottom: 1.3rem;
   background-color: #399bd1;
+  width: 11.4rem;
+}
+
+/*featured project*/
+.featured-project {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.featured-project h2 {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color:#399bd1;
+}
+
+.featured-project img {
+  margin-top: 1.4285714rem;
+}
+
+.featured-project h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.catagories h3 {
+  color: #399bd1;
 }
