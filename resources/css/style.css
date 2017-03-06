@@ -51,9 +51,10 @@ nav {
 /*featured project*/
 .featured-project {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
-.featured-project h2 {
+.featured-project h2, .projects h2 {
   font-weight: bold;
   font-size: 1.7rem;
   color:#399bd1;
@@ -61,12 +62,41 @@ nav {
 
 .featured-project img {
   margin-top: 1.4285714rem;
+  width: 100%;
 }
 
-.featured-project h3 {
+.featured-project h3, .projects h3 {
   font-size: 1.3rem;
   font-weight: bold;
 }
 .catagories h3 {
   color: #399bd1;
+}
+
+/*projects*/
+.projects {
+  padding-bottom: 5.85rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/*help*/
+.help {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 42rem;
+}
+
+.help strong {
+  font-size: 2.5rem;
+  padding-bottom: 1.4rem;
+}
+
+.help .btn {
+  margin-top: 2.8rem;
+  margin-bottom: 11.85rem;
+  padding-top: 1.3rem ;
+  padding-bottom: 1.3rem;
+  background-color: #399bd1;
+  width: 11.4rem;
 }
